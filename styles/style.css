@@ -1,8 +1,14 @@
 /* fonts */
 @import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Inter&family=League+Gothic&family=Montserrat:wght@400;500&family=Oswald&family=Poppins:ital,wght@0,500;1,400&family=Roboto+Slab:wght@300&display=swap");
 /* Navbar-Start */
+nav {
+  display: flex;
+  justify-content: space-between;
+}
 nav ul {
   display: flex;
+  margin-top: 95px;
+  margin-right: 120px;
 }
 nav ul li {
   list-style: none;
@@ -11,4 +17,107 @@ nav ul li {
 
 nav ul li a {
   text-decoration: none;
+}
+nav h3 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  color: #3a3a3a;
+  line-height: 36px;
+  margin-left: 120px;
+  margin-top: 87px;
+}
+/* Navbar End */
+
+/* First Header Section */
+.header-first-sec {
+  display: flex;
+}
+.header-first-sec-item1 {
+  margin-top: 126.8px;
+  margin-right: 131px;
+  margin-left: 120px;
+}
+.header-first-sec-item1 h1 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 50px;
+  letter-spacing: -1px;
+  margin-bottom: 17px;
+}
+.header-first-sec-item1 p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+}
+.header-first-sec-item2 {
+  margin-top: 50px;
+  margin-right: 132px;
+}
+.header-first-sec-item2 img {
+  width: 475px;
+  height: 475px;
+}
+button {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 10px 24px;
+  gap: 8px;
+  background-color: #e02c6d;
+  border: 0;
+  border-radius: 41px;
+  color: white;
+}
+.span {
+  font-weight: 700;
+  font-size: 16px;
+}
+/* Main Section */
+/* Company Logo */
+.various-company {
+  border-top: 3px solid gray;
+  border-bottom: 3px solid gray;
+  margin-top: 70px;
+  margin-bottom: 100px;
+}
+.image-1 {
+  margin-left: 227px;
+}
+.image-2 {
+  margin-left: 60.42px;
+}
+.image-3 {
+  margin-left: 60.42px;
+}
+.image-4 {
+  margin-left: 60.42px;
+}
+.image-5 {
+  margin-left: 60.42px;
+}
+.image-6 {
+  margin-left: 60.42px;
+}
+.image-7 {
+  margin-left: 61px;
+}
+/* Popular Products */
+.sec-title {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 70px;
+  color: #3a3a3a;
+  margin-left: 588px;
+}
+.products {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
 }
